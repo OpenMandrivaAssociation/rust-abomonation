@@ -6,7 +6,7 @@
 
 Name:           rust-%{crate}
 Version:        0.7.3
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        High performance and very unsafe serialization library
 
 # Upstream license specification: MIT
@@ -20,6 +20,8 @@ BuildArch:      noarch
 %endif
 
 BuildRequires:  rust-packaging
+BuildRequires:	rust-recycler-devel
+BuildRequires:	rusr-recycler+default-devel
 
 %global _description %{expand:
 High performance and very unsafe serialization library.}
