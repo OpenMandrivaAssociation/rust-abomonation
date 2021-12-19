@@ -21,7 +21,7 @@ BuildArch:      noarch
 
 BuildRequires:  rust-packaging
 BuildRequires:	rust-recycler-devel
-BuildRequires:	rusr-recycler+default-devel
+BuildRequires:	rust-recycler+default-devel
 
 %global _description %{expand:
 High performance and very unsafe serialization library.}
